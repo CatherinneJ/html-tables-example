@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styletable.css" />
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+   
+        <table class="table1" aria-labelledby="SemesterSchedule">
+          <caption>Semester II Schedule</caption>
+          <thead>
+            <tr>
+              <th>Course</th>
+              <th colspan="2">Time</th>
+              <th>Room</th>
+              <th>Day</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2" class="english"><b>English II</b></td>
+              <td>9:00</td>
+              <td>11:00</td>
+              <td>L2201</td>
+              <td>Monday</td>
+            </tr>
+            <tr>
+              <td>9:00</td>
+              <td>11:00</td>
+              <td>L2201</td>
+              <td>Wednesday</td>
+            </tr>
+            <tr>
+              <td class="geography"><b>Geography</b></td>
+              <td>11:00</td>
+              <td>12:45</td>
+              <td>G107</td>
+              <td>Tuesday</td>
+            </tr>
+            <tr>
+              <td class="biology"><b>Biology</b></td>
+              <td>9:00</td>
+              <td>11:00</td>
+              <td>B302</td>
+              <td>Friday</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="semester-foot" colspan="5"><em>Fig. Semester 2 Courses Schedule</em></td>
+            </tr>
+          </tfoot>
+        </table>
+     
+</body>
+<p></p>
+
+    <table class="table2" aria-labelledby="product-chart">
+        <caption>Product Comparison Chart</caption>
+        
+        <thead>
+            <tr>
+                <th id="empty" scope="col">Empty</th>
+                <th id="product-a" scope="col">Product A</th>
+                <th id="product-b" scope="col">Product B</th>
+                <th id="product-c" scope="col">Product C</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td id="durability" scope="row"><b>Durability</b></td>
+                <td headers="durability product-a">10/10</td>
+                <td headers="durability product-b">5/10</td>
+                <td headers="durability product-c">7/10</td>
+            </tr>
+            <tr>
+                <td id="design" scope="row"><b>Design</b></td>
+                <td headers="design product-a">3/10</td>
+                <td headers="design product-b">8/10</td>
+                <td headers="design product-c">7/10</td>
+            </tr>
+            <tr>
+                <td id="usability" scope="row"><b>Usability</b></td>
+                <td headers="usability product-a">7/10</td>
+                <td headers="usability product-b">10/10</td>
+                <td headers="usability product-c">5/10</td>
+            </tr>
+            <tr>
+                <td id="price" scope="row"><b>Price</b></td>
+                <td headers="usability product-a">9/10</td>
+                <td headers="usability product-b">7/10</td>
+                <td headers="usability product-c">3/10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+           <td class="product-foot" colspan="5"><em>Fig 1: Comparison of the Features between the products.</em></td>
+            </tr>
+        </tfoot>
+    </table>
+
+<p></p>
+   
+        <table class="table3" aria-labelledby="dog-chart">
+            <thead>
+               
+                <tr style="background-color: aqua; color: blue;">
+                    <th id="picture" scope="col">Picture of dog</th>
+                    <th id="name" scope="col">Name of dog</th>
+                    <th id="weight-dog" scope="col">Weight in kg</th>
+                    <th id="size" scope="col">Size in cm</th>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td><img src="images/japanese-spitz.png" alt="spitz" height="50px"></td>
+                    <td >Japanese Spitz</td>
+                    <td >5-10</td>
+                    <td>30-38</td>
+                </tr>
+
+                <tr>
+                    <td><img src="images/great-dane.png" alt="doga" height="50px"></td>
+                    <td >Great Dane</td>
+                    <td >50-90</td>
+                    <td >71-86</td>
+                </tr>
+
+                <tr>
+                    <td><img src="images/dalmatin-dog.png" alt="dalmatin" height="50px"></td>
+                    <td >Spotted Coach Dog</td>
+                    <td>24-32</td>
+                    <td>54-61</td>
+                </tr>
+                <tr>
+                    <td><img src="images/collie.png" alt="collia" height="50px"></td>
+                    <td >Rough Collie</td>
+                    <td>20-34</td>
+                    <td>51-61</td>
+                </tr>
+                
+                    <tr>
+                        <td><img src="images/sausage.png" alt="sausage" height="50px"></td>
+                        <td >Sausage Dog</td>
+                        <td >17-15</td>
+                        <td >13-15</td>
+                    
+                    <tr>
+                        <td><img src="images/german-shepherd.png" alt="shepherd" height="50px"></td>
+                        <td >German Shepherd</td>
+                        <td>22-40</td>
+                        <td>55-65</td>
+                    </tr>
+    
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table>
+  
+
+   
+</html>

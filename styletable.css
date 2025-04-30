@@ -1,0 +1,193 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 20px;
+}
+
+.table1 {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 700px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: rgb(102, 109, 137);
+  background-color: white;
+}
+
+
+.table1 caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #7b7979;
+}
+
+.table1 th {
+  background-color: #047af8;
+  color: white;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.table1 td {
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.table1 tfoot td {
+  border: none;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+td[rowspan] {
+  vertical-align: middle;
+  color: #007BFF;
+}
+
+.table2 {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 700px;
+  overflow: hidden;
+  color: black;
+  font-size: 12px;
+}
+
+.table2 caption {
+  font-size: 0.7em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: ;
+
+}
+
+.table2 tbody tr:nth-child(even) {
+  background-color: #b6d3ed;
+  color: #333;
+}
+
+.table2 tbody tr:nth-child(odd) {
+  background-color: #d0e5f9;
+  color: #333;
+}
+
+.table2 tbody th {
+  color: #232323;
+}
+
+.table2 tbody tr {
+  text-align: center;
+}
+
+.table1 tfoot td {
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.table2 table {
+  width: 80%;
+  border: 1px solid #333;
+  /* vonkajší okraj tabuľky */
+}
+
+.table2 thead th:first-child {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.table2 th {
+  background-color: rgb(197, 209, 234);
+  color: black;
+  padding: 12px;
+  border: 1px solid rgb(0, 132, 255)
+}
+
+.table2 td {
+  padding: 12px;
+  border: 1px solid #3574bd;
+}
+
+.table2 tfoot td {
+  border: none;
+  color: #232323;
+  font-size: 10px;
+  text-align: center;
+}
+
+.table2 tbody td:first-child {
+  text-align: left;
+}
+
+.english,
+.biology {
+  color: #007BFF;
+  background-color: white;
+  text-align: center;
+}
+
+.geography {
+  color: #007BFF;
+  background-color: white;
+  text-align: center;
+}
+
+.summerflower {
+  background-color: white;
+  color: #232323;
+}
+
+.dahlia {
+  background-color: rgb(38, 186, 38);
+  color: white;
+}
+
+.table3 {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 700px;
+  overflow: hidden;
+  color: rgb(46, 46, 48);
+  background-color: white;
+}
+
+.table3 caption {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #7b7979;
+}
+
+.table3 th {
+  background-color: #893a7a;
+  color: white;
+  padding: 12px;
+  border: 1px solid #b80da4;
+}
+
+.table3 td {
+  padding: 12px;
+  border: 1px solid #b80da4;
+  ;
+}
+
+.table3 tfoot td {
+  border: none;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.table3 thead th:first-child {
+  background-color: #893a7a;
+  color: transparent;
+}
